@@ -31,7 +31,7 @@ export const Items: React.FC<Props> = ({
             })
             .map((productItems: any, key: any) => (
               <div className="card">
-                <div>
+                <div className="card1">
                   <div>
                     <img
                       className="image"

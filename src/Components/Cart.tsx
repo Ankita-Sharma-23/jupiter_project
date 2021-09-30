@@ -12,7 +12,6 @@ export const Cart: React.FC<Props> = ({
   handleChange,
   handleDelete,
 }) => {
-  console.log("iiiiiiiii", cartItems);
   const totalPrice = cartItems.reduce(
     (price: number, item: { quantity: number; price: number }) =>
       price + item.quantity * item.price,
