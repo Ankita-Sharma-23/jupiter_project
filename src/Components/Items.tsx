@@ -13,7 +13,6 @@ export const Items: React.FC<Props> = ({
   searchItem,
   jupitorInfo,
 }) => {
-  console.log("jjjj", jupitorInfo);
   return (
     <section className="section">
       <div>
